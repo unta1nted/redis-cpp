@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.12.0)
 
+message(STATUS "C Compiler: ${CMAKE_C_COMPILER}")
+message(STATUS "C++ Compiler: ${CMAKE_CXX_COMPILER}")
+
 #-----------------------Options--------------------------------------
 option (REDISCPP_PURE_CORE "[REDISCPP] Only pure core" OFF)
 option (REDISCPP_HEADER_ONLY "[REDISCPP] Header only" OFF)
